@@ -16,7 +16,7 @@ Other repositories:
 
 fairsharing.org
 
-Look for licences for the code: CC, MIT
+Look for licences for the code: CC, MIT, GPL
 
 # Simple script
 
