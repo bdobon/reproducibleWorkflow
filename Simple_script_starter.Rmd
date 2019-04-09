@@ -3,7 +3,6 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-
 Check for the libraries and install them.
 
 ```{r libs}
@@ -33,6 +32,7 @@ tmp <- tempfile(fileext = ".csv")
 writeBin(as.vector(f), tmp)
 #get data file
 dat <- rio::import(tmp)
+head(dat)
 rm(f,tmp)
 
 ```
