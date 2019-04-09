@@ -28,6 +28,7 @@ get_dataset("doi:10.7910/DVN/YG9IID")
 #read in the file
 f <- get_file("anonymized_survey.csv", "doi:10.7910/DVN/YG9IID")
 # load it into memory
+head(f)
 tmp <- tempfile(fileext = ".csv")
 writeBin(as.vector(f), tmp)
 #get data file
