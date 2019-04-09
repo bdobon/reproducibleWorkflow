@@ -38,7 +38,7 @@ rm(f,tmp)
 ```
 
 
-Calculate the year of each participant, plot the mean age by gender.
+Calculate the year of each participant, plot the mean age by gender. Need to change the year format. 
 
 ```{r plot}
 #format the year variable
